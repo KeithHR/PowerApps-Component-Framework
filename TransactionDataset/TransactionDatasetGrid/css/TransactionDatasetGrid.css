@@ -1,0 +1,66 @@
+.transaction-grid {
+    font-family: "Segoe UI", Tahoma, sans-serif;
+    color: #1f1f1f;
+    background: #ffffff;
+    border: 1px solid #d9d9d9;
+    border-radius: 6px;
+    padding: 12px;
+    box-sizing: border-box;
+    height: 100%;
+    overflow: auto;
+}
+
+.transaction-grid__title {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+}
+
+.transaction-grid__status {
+    font-size: 12px;
+    color: #5e5e5e;
+    margin-bottom: 8px;
+}
+
+.transaction-grid__table {
+    width: 100%;
+    border-collapse: collapse;
+    table-layout: fixed;
+}
+
+.transaction-grid__table th,
+.transaction-grid__table td {
+    border-bottom: 1px solid #ececec;
+    padding: 8px;
+    text-align: left;
+    font-size: 12px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.transaction-grid__table th {
+    background: #f7f7f7;
+    font-weight: 600;
+    position: sticky;
+    top: 0;
+}
+
+.transaction-grid__table tbody tr:hover {
+    background: #f5fbff;
+}
+
+.transaction-grid__load-more {
+    margin-top: 10px;
+    border: 1px solid #0f6cbd;
+    background: #0f6cbd;
+    color: #ffffff;
+    border-radius: 4px;
+    padding: 6px 10px;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.transaction-grid__load-more:hover {
+    background: #115ea3;
+}
